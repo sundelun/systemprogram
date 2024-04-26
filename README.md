@@ -1,4 +1,4 @@
-# <span style="color:#ADD8E6">CSCB09A3
+# <span style="color:#ADD8E6">System programming
 
 ## <span style="color:#ADD8E6">Problem Solving</span>
 - The hardest thing in this assignment is about creating pipes and record all data from pipe/fork process.
@@ -6,10 +6,8 @@
 - Classify each case, if -1 for a fork/pipe, then there is an error
 - If child process, writes the stats to pipe
 - If parent process, reads from these pipes and prints the gathered information
-- Just like a1, the same parse argument process and printing informations
-- Compare to a1, change the method of calculate CPU usage, combine sequential output and normal output in one function implementation
 - I also simplify the method to get information of cpu with new methods.
-- Unlike a1 and a2, I change to use a 2d array of char to store results instead of dynamically growing data structure(linked-list), since we know the samples at first, and it is hard to free all allocated space if signal is required to be intereupted, which is bad practice
+- I change to use a 2d array of char to store results instead of dynamically growing data structure(linked-list), since we know the samples at first, and it is hard to free all allocated space if signal is required to be intereupted, which is bad practice
 
 ## <span style="color:#ADD8E6">Outline of program </span>
 
